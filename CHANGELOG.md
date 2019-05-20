@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="5.1.0"></a>
+# [5.1.0](https://github.com/TheOptimisticFactory/bk-standard-version/compare/v5.0.0...v5.1.0) (2019-05-20)
+
+
+### ✅ Features
+
+* **Core**: Added Gitlab support ([23d59c4](https://github.com/TheOptimisticFactory/bk-standard-version/commit/23d59c4) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
+
+
+
 <a name="5.0.0"></a>
 # [5.0.0](https://github.com/sportheroes/bk-standard-version/compare/v4.14.0...v5.0.0) (2019-02-22)
 
