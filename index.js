@@ -1,3 +1,4 @@
+const { CHANGELOG: { ALLOWED_BRANCHES } = {}} = require('config');
 const path = require('path')
 const printError = require('./lib/print-error')
 
@@ -8,7 +9,7 @@ const commit = require('./lib/lifecycles/commit')
 const tag = require('./lib/lifecycles/tag')
 const resetChangelog = require('./lib/lifecycles/resetChangelog')
 
-const ALLOWED_BRANCHES = [ 'master' ];
+const FINAL_ALLOWED_BRANCHES = ALLOWED_BRANCHES || [ 'master' ];
 
 module.exports = function standardVersion (argv) {
   let branch;
@@ -23,8 +24,16 @@ module.exports = function standardVersion (argv) {
     return Promise.reject(noBranch);
   }
 
-  if (!ALLOWED_BRANCHES.includes(branch)) {
-    const notAllowedBranch = new Error(`This command is only allowed on the following branches: ${ALLOWED_BRANCHES.join(',')}`);
+  const isAllowed = FINAL_ALLOWED_BRANCHES.some(value => {
+    if (value instanceof RegExp) {
+      return value.test(branch)
+    }
+
+    return Boolean(branch === value);
+  });
+
+  if (!isAllowed) {
+    const notAllowedBranch = new Error(`This command is only allowed on the following branches: ${FINAL_ALLOWED_BRANCHES.join(',')}`);
 
     printError({}, notAllowedBranch);
 
