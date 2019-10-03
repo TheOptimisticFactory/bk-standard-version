@@ -7,6 +7,7 @@
     "pretest": "standard",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "test": "nyc mocha --timeout=40000 test.js",
+    "test-only": "NODE_ENV=test nyc mocha --timeout=40000 test.js",
     "release": "bin/cli.js"
   },
   "nyc": {
@@ -42,24 +43,24 @@
   },
   "dependencies": {
     "@sportheroes/bk-conventional-recommended-bump": "1.2.0",
-    "@joethefkingfrypan/bk-conventional-changelog": "2.1.0",
+    "@joethefkingfrypan/bk-conventional-changelog": "2.2.0",
     "chalk": "2.4.2",
     "conventional-changelog": "<3.X",
     "git-branch": "<3.X",
     "figures": "<4.X",
-    "fs-access": "<2.X",
-    "semver": "<6.X",
-    "yargs": "<13.X"
+    "fs-access": "<3.X",
+    "semver": "<7.X",
+    "yargs": "<15.X"
   },
   "devDependencies": {
-    "chai": "4.1.2",
+    "chai": "4.2.0",
     "config": ">=3.X <4.X",
-    "coveralls": "2.13.1",
-    "mocha": "3.5.3",
+    "coveralls": "<4.X",
+    "mocha": "6.2.1",
     "mock-git": "2.0.0",
     "mockery": "2.1.0",
-    "nyc": "12.0.2",
+    "nyc": "14.1.1",
     "shelljs": "0.8.2",
-    "standard": "10.0.3"
+    "standard": "14.3.1"
   }
 }
