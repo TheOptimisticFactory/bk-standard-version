@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="5.2.1"></a>
+## [5.2.1](https://github.com/TheOptimisticFactory/bk-standard-version/compare/v5.2.0...v5.2.1) (2023-08-01)
+
+
+### 🔄 Notable changes
+
+* **Core**: Added "lts" as whitelisted branch for releasing ([0d4f4c1](https://github.com/TheOptimisticFactory/bk-standard-version/commit/0d4f4c1) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
+* **Package**: Dropped fs-access dependency ([926af89](https://github.com/TheOptimisticFactory/bk-standard-version/commit/926af89) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
+
+
+
 <a name="5.2.0"></a>
 # [5.2.0](https://github.com/TheOptimisticFactory/bk-standard-version/compare/v5.0.0...v5.2.0) (2019-10-03)
 
