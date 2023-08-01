@@ -44,23 +44,22 @@
   "dependencies": {
     "@sportheroes/bk-conventional-recommended-bump": "1.2.0",
     "@joethefkingfrypan/bk-conventional-changelog": "2.2.0",
-    "chalk": "2.4.2",
+    "chalk": "4.0.0",
     "conventional-changelog": "<3.X",
     "git-branch": "<3.X",
     "figures": "<4.X",
-    "fs-access": "<3.X",
     "semver": "<7.X",
-    "yargs": "<15.X"
+    "yargs": "<16.X"
   },
   "devDependencies": {
     "chai": "4.2.0",
     "config": ">=3.X <4.X",
     "coveralls": "<4.X",
-    "mocha": "6.2.1",
+    "mocha": "7.1.1",
     "mock-git": "2.0.0",
     "mockery": "2.1.0",
-    "nyc": "14.1.1",
-    "shelljs": "0.8.2",
-    "standard": "14.3.1"
+    "nyc": "15.0.1",
+    "shelljs": "0.8.3",
+    "standard": "14.3.3"
   }
 }
