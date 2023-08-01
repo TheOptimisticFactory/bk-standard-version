@@ -9,7 +9,7 @@ const commit = require('./lib/lifecycles/commit')
 const tag = require('./lib/lifecycles/tag')
 const resetChangelog = require('./lib/lifecycles/resetChangelog')
 
-const FINAL_ALLOWED_BRANCHES = ALLOWED_BRANCHES || [ 'master' ];
+const FINAL_ALLOWED_BRANCHES = ALLOWED_BRANCHES || [ 'master', 'lts' ];
 
 module.exports = function standardVersion (argv) {
   let branch;
