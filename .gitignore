@@ -7,9 +7,10 @@ node_modules
 npm-debug.log
 
 # Editor files
+/.idea
+/.history
 /.project
 /.settings
-/.idea
 /.vscode
 
 # coverage
