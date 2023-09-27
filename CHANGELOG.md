@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="5.3.0"></a>
+## [5.2.2](https://github.com/TheOptimisticFactory/bk-standard-version/compare/v5.3.0...v5.2.2) (2023-09-27)
+
+
+### ✅ Features
+
+* **Git**: Added ability to override commit description ([59d007f](https://github.com/TheOptimisticFactory/bk-standard-version/commit/59d007f) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
+
+### 🔄 Notable changes
+
+* **Git**: Adjusted prompts to support any checked-out branch ([fc82b22](https://github.com/TheOptimisticFactory/bk-standard-version/commit/fc82b22) - [TheOptimisticFactory](https://github.com/TheOptimisticFactory))
+
+
+
 <a name="5.2.1"></a>
 ## [5.2.1](https://github.com/TheOptimisticFactory/bk-standard-version/compare/v5.2.0...v5.2.1) (2023-08-01)
 

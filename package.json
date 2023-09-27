@@ -1,6 +1,6 @@
 {
   "name": "@joethefkingfrypan/bk-standard-version",
-  "version": "5.2.1",
+  "version": "5.3.0",
   "description": "Replacement for `npm version` with automatic CHANGELOG generation",
   "bin": "bin/cli.js",
   "scripts": {
