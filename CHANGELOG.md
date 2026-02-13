@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="6.0.0"></a>
+# [6.0.0](https://github.com/TheOptimisticFactory/bk-standard-version/compare/v5.3.0...v6.0.0) (2026-02-13)
+
+
+### ✅ Features
+
+* **Core**: Added support of conventional-changelog v5.X ([7adde2e](https://github.com/TheOptimisticFactory/bk-standard-version/commit/7adde2e))
+
+### 🔄 Notable changes
+
+* **Dependencies**: Removed restriction on compatible config versions ([8b8a386](https://github.com/TheOptimisticFactory/bk-standard-version/commit/8b8a386))
+
+
+
 <a name="5.3.0"></a>
 ## [5.2.2](https://github.com/TheOptimisticFactory/bk-standard-version/compare/v5.3.0...v5.2.2) (2023-09-27)
 
