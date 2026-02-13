@@ -4,7 +4,6 @@
   "description": "Replacement for `npm version` with automatic CHANGELOG generation",
   "bin": "bin/cli.js",
   "scripts": {
-    "pretest": "standard",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "test": "nyc mocha --timeout=40000 test.js",
     "test-only": "NODE_ENV=test nyc mocha --timeout=40000 test.js",
@@ -42,24 +41,23 @@
     "config": ">=3.X"
   },
   "dependencies": {
+    "@joethefkingfrypan/bk-conventional-changelog": "3.0.0",
     "@sportheroes/bk-conventional-recommended-bump": "1.2.0",
-    "@joethefkingfrypan/bk-conventional-changelog": "2.2.0",
-    "chalk": "4.0.0",
-    "conventional-changelog": "<3.X",
-    "git-branch": "<3.X",
-    "figures": "<4.X",
-    "semver": "<7.X",
-    "yargs": "<16.X"
+    "chalk": ">=4.1.2 <5.X",
+    "conventional-changelog": ">=5.1.0 <6.X",
+    "figures": "6.1.0",
+    "git-branch": "2.0.1",
+    "semver": "7.7.4",
+    "yargs": ">=17.2.2 <18.X"
   },
   "devDependencies": {
-    "chai": "4.2.0",
-    "config": ">=3.X <4.X",
+    "chai": ">=4.5.0 <5.X",
+    "config": "4.3.0",
     "coveralls": "<4.X",
-    "mocha": "7.1.1",
+    "mocha": "11.7.5",
     "mock-git": "2.0.0",
     "mockery": "2.1.0",
-    "nyc": "15.0.1",
-    "shelljs": "0.8.3",
-    "standard": "14.3.3"
+    "nyc": "17.1.0",
+    "shelljs": "0.10.0"
   }
 }
