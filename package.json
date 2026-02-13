@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/TheOptimisticFactory/bk-standard-version#readme",
   "peerDependencies": {
-    "config": ">=3.X <4.X"
+    "config": ">=3.X"
   },
   "dependencies": {
     "@sportheroes/bk-conventional-recommended-bump": "1.2.0",
